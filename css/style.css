@@ -103,11 +103,10 @@ p {
 /*! slider-start --------------------------------------*/
 
 .cover-box{
+ column-gap: 5px;
+  padding: 0 20px;
   justify-content: center;
 
-  padding: 0 20px;
-  height: 1100px;
-  position: relative;
 }
 
 .layer1{
@@ -132,7 +131,7 @@ p {
 .layer2{
   background-color: #e83e4d;
   height: 100%;
-  width: 100%;
+  min-width: 300px;
 
 }
 
