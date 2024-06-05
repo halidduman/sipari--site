@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-:root{
+:root {
     --red: #E83E4D;
     --dark-blue: #0B2341;
-    --red: #E1E1E1;
+    --red: #E1E1E1; /* Bu satırı kaldırarak sadece bir kez --red tanımlayın */
     --blue: #264B80;
 }
 
 /* Container Class */
-.container {
+.container-h { /* ".container" yerine ".container-h" */
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -20,10 +20,13 @@
 }
 
 /* Row Class */
-.row {
+.row-h { /* ".row" yerine ".row-h" */
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
     justify-content: center; /* H1 etiketini yatay olarak ortalar */
 }
+
+
+/*! slider-start --------------------------------------*/
