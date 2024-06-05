@@ -1,78 +1,76 @@
 :root {
-    --red: #E83E4D;
-    --dark-blue: #0B2341;
-    --red: #E1E1E1; /* Bu satırı kaldırarak sadece bir kez --red tanımlayın */
-    --blue: #264B80;
+  --red: #e83e4d;
+  --dark-blue: #0b2341;
+  --red: #e1e1e1;
+  --blue: #264b80;
 }
 
-.navbar-nav{
-    justify-content: center;
-    color: none;
+.navbar-nav {
+  justify-content: center;
+  color: none;
 }
 
-.header-h{
-    padding: 25px;
+.header-h {
+  padding: 25px;
 }
 
-.header-h a{
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--dark-blue);
-    transition: all 0.4s;
+.header-h a {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark-blue);
+  transition: all 0.4s;
 }
 
 .navbar-nav .nav-link.active-color {
-    color: #ff0000; /* Kurumsal bağlantısının rengi (örnekte kırmızı) */
+  color: #ff0000; /* Kurumsal bağlantısının rengi  */
 }
 
-.navbar-nav .nav-link.active-color:hover{
-    color: var(--dark-blue);
+.navbar-nav .nav-link.active-color:hover {
+  color: var(--dark-blue);
 }
 
-.header-h i{
-    font-size: 35px;
-    font-weight: 600;
-    width: auto;
-    text-align: center;
+.header-h i {
+  font-size: 35px;
+  font-weight: 600;
+  width: auto;
+  text-align: center;
 }
 
-.header-h i:hover{
-    cursor: pointer;
-    transition: all 0.4s;
-    color: #e83e4d; /
-
+.header-h i:hover {
+  cursor: pointer;
+  transition: all 0.4s;
+  color: #e83e4d;
 }
 
-.header-h img{
-    height: 80px;
+.header-h img {
+  height: 80px;
 }
 
-.nav2{
-    border-right: 1px solid rgb(171, 171, 171);
-    background-color: rgb(255, 255, 255);
-    padding: 10px 2.7%;
-    padding-right: 20px;
+.nav2 {
+  border-right: 1px solid rgb(171, 171, 171);
+  background-color: rgb(255, 255, 255);
+  padding: 10px 2.7%;
+  padding-right: 20px;
 }
 
 /* renk */
 .navbar-nav .nav-link:hover {
-    color: #e83e4d; /
+  color: #e83e4d;
 }
 
 @media (max-width: 1340px) {
-    .header-h a{
-        font-size: 10px;
-    }
-    }
-
+  .header-h a {
+    font-size: 10px;
+  }
+}
 
 @media (max-width: 992px) {
-    .header-h i{
-        font-size: 24px;
-        font-weight: 600;
-        display: none;
-    }
-    .header-h a{
-border: none;
-    }
+  .header-h i {
+    font-size: 24px;
+    font-weight: 600;
+    display: none;
+  }
+  .header-h a {
+    border: none;
+  }
 }
