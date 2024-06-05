@@ -1,51 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    --red: #E83E4D;
-    --dark-blue: #0B2341;
-    --red: #E1E1E1; /* Bu satırı kaldırarak sadece bir kez --red tanımlayın */
-    --blue: #264B80;
+  --red: #e83e4d;
+  --dark-blue: #0b2341;
+  --red: #e1e1e1; /* Bu satırı kaldırarak sadece bir kez --red tanımlayın */
+  --blue: #264b80;
 }
 
 /* Container Class */
-.container-h { /* ".container" yerine ".container-h" */
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
+.container-h {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /* Row Class */
-.row-h { /* ".row" yerine ".row-h" */
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    justify-content: center; /* H1 etiketini yatay olarak ortalar */
+.row-h {
+  /* ".row" yerine ".row-h" */
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center; /* H1 etiketini yatay olarak ortalar */
 }
 
+/* header */
 
 /*! slider-start --------------------------------------*/
 
 /* Carousel boyutlarını ayarla */
 #carouselExampleSlidesOnly {
-    width: 100%; /* Örnek genişlik */
-    height: 575px; /* Örnek yükseklik */
-  }
-  
-  /* Carousel içeriği */
-  .carousel-inner {
+    position: relative;
+  width: 100%; /* Örnek genişlik */
+  height: 565px; /* Örnek yükseklik */
+}
+
+/* Carousel içeriği */
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+/* Carousel içeriği resimleri */
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Resimleri kesmeden boyutlandır */
+}
+
+.slider-text{
+
+    background: linear-gradient(90deg, rgba(255,255,255,1) 51%, rgba(255,255,255,0.10416666666666663) 100%);
+    position: absolute;
+    z-index: 1;
+    color: #e83e4d;
+    height: 50px;
+    height: 20%;
     width: 100%;
-    height: 100%;
-  }
-  
-  /* Carousel içeriği resimleri */
-  .carousel-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Resimleri kesmeden boyutlandır */
-  }
+}
+
+/*! slider-start --------------------------------------*/
