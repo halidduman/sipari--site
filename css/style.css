@@ -4,9 +4,8 @@
 }
 
 :root {
-  --red: #e83e4d;
   --dark-blue: #0b2341;
-  --red: #e1e1e1; /* Bu satırı kaldırarak sadece bir kez --red tanımlayın */
+  --red: #e83e4d; /* Bu satırı kaldırarak sadece bir kez --red tanımlayın */
   --blue: #264b80;
 }
 
@@ -35,7 +34,7 @@
 
 /* Carousel boyutlarını ayarla */
 #carouselExampleSlidesOnly {
-    position: relative;
+  position: relative;
   width: 100%; /* Örnek genişlik */
   height: 565px; /* Örnek yükseklik */
 }
@@ -53,15 +52,74 @@
   object-fit: cover; /* Resimleri kesmeden boyutlandır */
 }
 
-.slider-text{
+.slider-text {
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.753) 51%,
+    rgba(255, 255, 255, 0.10416666666666663) 100%
+  );
+  position: absolute;
+  z-index: 1;
+  color: #e83e4d;
+  height: 50px;
+  height: 35%;
+  width: 70%;
+  transition: all 0.5s;
+}
 
-    background: linear-gradient(90deg, rgba(255,255,255,1) 51%, rgba(255,255,255,0.10416666666666663) 100%);
-    position: absolute;
-    z-index: 1;
-    color: #e83e4d;
-    height: 50px;
-    height: 20%;
-    width: 100%;
+.slider-text h1,
+p {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.slider-text h1 {
+  font-size: 30;
+  font-weight: 900;
+  color: #0b2341;
+}
+
+.slider-text p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn-slider {
+  background-color: var(--red);
+  border: none;
+  margin: 25px 0 0 25px;
+  padding: 10px 25px;
+  color: white;
+  transition: all 0.5s;
+}
+
+.btn-slider:hover {
+  background-color: var(--dark-blue);
+  box-shadow: rgba(255, 255, 255, 0.649) 0px 10px 50px;
 }
 
 /*! slider-start --------------------------------------*/
+
+/* ? Responsive-start ***********************************************************************/
+@media (max-width: 1440px) {
+  .slider-text {
+    top: 40% !important;
+  }
+}
+@media (max-width: 1024px) {
+  .slider-text {
+    top: 35% !important;
+  }
+  .btn-slider {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .slider-text {
+    top: 20% !important;
+  }
+}
+@media (max-width: 409px) {
+}
+/* ? Responsive-end ***********************************************************************/
