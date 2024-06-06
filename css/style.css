@@ -75,8 +75,9 @@ body {
 
 .slider-text h1,
 p {
-  margin-left: 40px;
+  display: flex;
   margin-top: 10px;
+  margin-left: 20px;
 }
 
 .slider-text h1 {
@@ -88,12 +89,13 @@ p {
 .slider-text p {
   font-size: 20px;
   font-weight: 600;
+  left: 0px;
 }
 
 .btn-slider {
   background-color: var(--red);
   border: none;
-  margin: 25px 0 0 45px;
+  margin: 50px 0 0 45px;
   padding: 10px 25px;
   width: 260px;
   color: white;
@@ -258,7 +260,14 @@ font-size: 80px;
   font-weight: 800
 }
 
-.cart-2-box h2,p{
+.cart-2-box h2 {
+  color: var(--dark-blue);
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+.cart-2-box p {
   color: var(--dark-blue);
   font-size: 20px;
   width: 100%;
