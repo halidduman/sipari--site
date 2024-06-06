@@ -18,13 +18,34 @@ footer img {
 
 .footer-c {
   display: grid;
-  grid-template-columns: 60% 20% 20%;
+  grid-template-columns: 50% 20% 20%;
   gap: 16px;
 }
 .footer-box {
   border-right: 1px solid rgb(201, 201, 201);
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  text-align: start;
+}
+
+#footer-bl{
+  
+  padding-left: 30px;
+  border: none;
+  border-left: 1px solid #C9C9C9;
+}
+
+#footer-bl p{
+  margin: 0px;
+}
+
+#footer-br{
+  border-right: none;
+}
+
+#footer-box-custom{
+  align-items: start;
 }
 .footer-box h2 {
   font-size: 128px;
@@ -47,11 +68,13 @@ footer img {
 .footer-box h3 {
   color: #202020;
   font-weight: 700;
+  
 }
 .footer-box a {
   text-decoration: none;
   color: var(--bg-color);
-  padding-top: 30px;
+  padding-top: 10px;
+
 }
 .copyright {
   color: var(--bg-color);
