@@ -1,0 +1,38 @@
+:root {
+    --red: #e83e4d;
+    --dark-blue: #0b2341;
+    --red: #e1e1e1;
+    --blue: #264b80;
+  }
+
+  .sidebar {
+    z-index: 200;
+    background-color:var(--dark-blue);
+    color: white;
+    height: 60%;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+    row-gap: 10px;
+    position: fixed;
+    top: 160px;
+    right: 0;
+    border-radius: 25px 0px 0px 25px;
+  }
+  
+  .sidebar i {
+    border-radius: 50px;
+    background-color: var(--red);
+    padding: 15px 20px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .sidebar i:hover {
+    color: var(--dark-blue);
+    background-color: aliceblue;
+    transition: 0.5s;
+  }
