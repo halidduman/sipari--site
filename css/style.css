@@ -247,7 +247,7 @@ p {
   transition: all 0.5s;
 }
 
-.cart-2-box:hover{
+.cart-2-box:hover {
   border-radius: 25%;
 }
 
@@ -284,23 +284,22 @@ p {
   justify-content: center;
 }
 
-
 .cart-2-box-btn button {
   margin-top: 50px;
   font-weight: 700;
   background-color: var(--dark-blue);
   color: white;
   padding: 18px 100px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-.cart-2-box-btn button:hover{
+.cart-2-box-btn button:hover {
   background-color: var(--red);
 }
 
 /* cart-2-------------------------------------------------------------------- */
 /* cart-3-------------------------------------------------------------------- */
-.carts-4{
+.carts-4 {
   margin: 30px auto;
   text-align: center;
   background-color: #ffffff;
@@ -310,8 +309,9 @@ p {
   position: relative;
   border-radius: 12%;
   justify-content: center;
-  box-shadow: rgba(95, 95, 95, 0.4) -5px 5px, rgba(95, 95, 95, 0.3) -10px 10px, rgba(95, 95, 95, 0.2) -15px 15px, rgba(95, 95, 95, 0.1) -20px 20px, rgba(95, 95, 95, 0.05) -25px 25px;
-  
+  box-shadow: rgba(95, 95, 95, 0.4) -5px 5px, rgba(95, 95, 95, 0.3) -10px 10px,
+    rgba(95, 95, 95, 0.2) -15px 15px, rgba(95, 95, 95, 0.1) -20px 20px,
+    rgba(95, 95, 95, 0.05) -25px 25px;
 }
 
 .carts-4 img {
@@ -324,25 +324,24 @@ p {
   position: absolute;
   top: -15px;
   color: white;
-  
 }
 
-.carts-4 i{
+.carts-4 i {
   top: 85px;
   position: absolute;
   color: #264b80;
   font-size: 100px;
 }
 
-.carts-4 h3{
+.carts-4 h3 {
   position: absolute;
   top: 190px;
   font-size: 20px;
   font-weight: 900;
   color: var(--blue);
 }
-#carts-4-p{
-  padding:10px 20px;
+#carts-4-p {
+  padding: 10px 20px;
   position: absolute;
   top: 230px;
   color: var(--blue);
@@ -351,60 +350,60 @@ p {
 }
 /* cart-3-------------------------------------------------------------------- */
 /* cart-4-------------------------------------------------------------------- */
-.carts-3{
-text-align: center;
+.carts-3 {
+  text-align: center;
 }
 
-.carts-3 h1{
-color: var(--blue);
-margin-top: 50px;
-font-weight: 800;
-  }
-.carts-3 h3{
-color: var(--blue);
-margin-top: 20px;
-font-weight: 600;
-margin-bottom: 20px;
-  }
+.carts-3 h1 {
+  color: var(--blue);
+  margin-top: 50px;
+  font-weight: 800;
+}
+.carts-3 h3 {
+  color: var(--blue);
+  margin-top: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
 
-  #little-title{
-    padding: 0 70px;
-    font-weight: 400;
-    font-size: 20px;
-  }
+#little-title {
+  padding: 0 70px;
+  font-weight: 400;
+  font-size: 20px;
+}
 
-  .center-custom{
-    justify-content: center;
-  }
+.center-custom {
+  justify-content: center;
+}
 
-  .cart-box-3{
-    margin: auto;
-    justify-content: center;
-    margin: 20px  20px;
-    background-color: var(--blue);
-    height: 300px;
-    width: 300px;
-    -webkit-box-shadow: 10px -10px 0px -1px rgba(161,161,161,1);
-    -moz-box-shadow: 10px -10px 0px -1px rgba(161,161,161,1);
-    box-shadow: 10px -10px 0px -1px rgba(161,161,161,1);
-    transition: all 0.5s;
-  }
+.cart-box-3 {
+  margin: auto;
+  justify-content: center;
+  margin: 20px 20px;
+  background-color: var(--blue);
+  height: 300px;
+  width: 300px;
+  -webkit-box-shadow: 10px -10px 0px -1px rgba(161, 161, 161, 1);
+  -moz-box-shadow: 10px -10px 0px -1px rgba(161, 161, 161, 1);
+  box-shadow: 10px -10px 0px -1px rgba(161, 161, 161, 1);
+  transition: all 0.5s;
+}
 
-  .cart-box-3:hover{
-    background-color: var(--red);
-    transform: translate(0px,-15px);
-  }
+.cart-box-3:hover {
+  background-color: var(--red);
+  transform: translate(0px, -15px);
+}
 
-  .cart-box-3 h3{
-    color: #ffffff;
-    font-weight: 700;
-  }
+.cart-box-3 h3 {
+  color: #ffffff;
+  font-weight: 700;
+}
 
-  .cart-box-3 i {
-    padding-top: 60px;
-    font-size: 100px;
-    color: white;
-  }
+.cart-box-3 i {
+  padding-top: 60px;
+  font-size: 100px;
+  color: white;
+}
 /* cart-4-------------------------------------------------------------------- */
 
 /* ? Responsive-start ***********************************************************************/
