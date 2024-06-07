@@ -2,13 +2,14 @@
   --red: #e83e4d;
   --dark-blue: #0b2341;
   --red: #e1e1e1;
+  --white: #ffffff;
   --blue: #264b80;
 }
 
 .sidebar {
   z-index: 200;
   background-color: var(--dark-blue);
-  color: white;
+  color:var(--white);
   height: 60%;
   width: 80px;
   display: flex;
@@ -26,7 +27,7 @@
   border-radius: 50px;
   background-color: var(--red);
   padding: 15px 20px;
-  color: white;
+  color: var(--white);
   font-size: 15px;
   cursor: pointer;
 }

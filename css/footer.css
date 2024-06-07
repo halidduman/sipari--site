@@ -1,6 +1,7 @@
 :root {
   --dark-blue: #0b2341;
   --gray: #cfcfcf;
+  --white: #ffffff;
   --red: #e83e4d; /* Bu satırı kaldırarak sadece bir kez --red tanımlayın */
   --blue: #264b80;
 }
@@ -27,6 +28,10 @@ footer img {
   flex-direction: column;
   margin: 0 auto;
   text-align: start;
+}
+
+.footer-box a{
+font-weight: 700;
 }
 
 #footer-bl{
@@ -62,9 +67,11 @@ footer img {
   background: var(--red);
   font-size: 20px;
   padding: 10px;
-  color: white;
+  color: var(--white);
   border-radius: 50%;
 }
+
+
 .footer-box h3 {
   color: #202020;
   font-weight: 700;
@@ -77,13 +84,15 @@ footer img {
 
 }
 .copyright {
+  font-weight: 600;
+  font-size: 15px;
   color: var(--bg-color);
   padding-top: 30px;
 }
 
 .copyright {
   padding-top: 5px;
-  margin-top: 20px;
+  margin-top: 50px;
   text-align: center;
   justify-content: center;
   border-top: 1px solid rgb(201, 201, 201);
