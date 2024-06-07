@@ -9,7 +9,7 @@
 .sidebar {
   z-index: 200;
   background-color: var(--dark-blue);
-  color:var(--white);
+  color: var(--white);
   height: 60%;
   width: 80px;
   display: flex;

@@ -5,6 +5,7 @@
 
 body {
   background-color: var(--gray);
+  box-sizing: border-box;
 }
 
 :root {
