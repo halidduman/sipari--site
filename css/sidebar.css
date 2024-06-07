@@ -10,7 +10,7 @@
   z-index: 200;
   background-color: var(--dark-blue);
   color: var(--white);
-  height: 60%;
+  height: 50%;
   width: 80px;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@
   justify-content: center;
   row-gap: 10px;
   position: fixed;
-  top: 160px;
+  top: 250px;
   right: 0;
   border-radius: 25px 0px 0px 25px;
 }
@@ -26,7 +26,7 @@
 .sidebar i {
   border-radius: 50px;
   background-color: var(--red);
-  padding: 15px 20px;
+  padding: 10px 15px;
   color: var(--white);
   font-size: 15px;
   cursor: pointer;
